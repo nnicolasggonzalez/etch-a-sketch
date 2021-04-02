@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel= 'stylesheet' href='style.css'>
+    <div class= 'title'>Etch-a-Sketch</div>
+</head>
+<body>
+    <div class='sizeForm'>
+        <form id='gridSize' >
+            <label for='input'>Please enter your desired grid size (1-100):</label><br>
+            <input id='sizeInput' type='text' placeholder="Type something...">
+        </form>
+        <button onclick="determineSize()" id='submitButton' class='gridSizeButton' form='gridSize' type="button">Change Grid Size</button>
+    </div>
+    <div id='mainDiv'></div>
+
+
+
+
+    <button onClick="window.location.reload();" id='clearGrid' class='clearButton'>Clear Grid</button>
+<script src='script.js'></script>
+</body>
+</html>

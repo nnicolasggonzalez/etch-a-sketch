@@ -1,0 +1,57 @@
+html{
+    text-align: center;
+    background: rgb(241, 241, 241);
+}
+
+body{
+    display: inline-block;
+    text-align: center;
+}   
+
+
+.sizeForm{
+    display: flex;
+    flex-direction: column;
+    height: 30px;
+    margin-top: 50px;
+    align-items: center;;
+}
+
+.gridSizeButton{
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    
+}
+
+#container{
+    display: inline-block;
+    width: 500px;
+    height: 500px;
+    outline: black solid 3px;
+    position: relative;
+    font-size: 0;
+    margin-top: 60px;
+}
+
+.title{  
+    margin-top: 20px;
+    display: inline-block;
+    font-size: 40px;
+    align-items: center;
+    
+}
+
+.boxes{
+    display:inline-block;
+    position:relative;
+    outline: black solid .05px;
+    opacity: 0.6;
+    transition: 0.01s;
+    transition-delay: 10s;
+}
+
+.boxes:hover{
+    opacity: 1;
+    transition-delay:0s;
+}
